@@ -115,7 +115,7 @@ Looking at this line of code
 ```py
 max_prime = p % q if p > q else q % p
 ```
-we can see that it is just $max\_prime = |(p-q)|$.
+we can see that it is just $maxprime = |(p-q)|$.
 
 We now also know the values of $a$ and $f1$. The idea is to loop from $a$ to previous prime of $a$ to get the difference $|(p-q)|$. From there we can easily factor $N1$.
 
