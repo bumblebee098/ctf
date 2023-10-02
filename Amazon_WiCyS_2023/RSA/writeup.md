@@ -129,14 +129,17 @@ We know how to calculate the right-hand side, so we can quickly calculate $p+q$.
 
 We can expand our equation:
 
-$$
-\begin{align} (p+q)^2 = (p-q)^2 + 4pq
-(p+q)^2 = m^2 + 4n
-p+q = \sqrt{m^2+4n}
-(p+q)+(p-q) = \sqrt{m^2+4n}+m
-2p = \sqrt{m^2+4n}+m
-p = \frac{\sqrt{m^2+4n}+m}{2}
-\end{align}$$
+$$(p+q)^2 = (p-q)^2 + 4pq$$
+
+$$(p+q)^2 = m^2 + 4n$$
+
+$$p+q = \sqrt{m^2+4n}$$
+
+$$(p+q)+(p-q) = \sqrt{m^2+4n}+m$$
+
+$$2p = \sqrt{m^2+4n}+m$$
+
+$$p = \frac{\sqrt{m^2+4n}+m}{2}$$
 
 And write the code:
 ```py
